@@ -24,7 +24,7 @@ Never post an invitation link, access token, or password in a GitHub issue, scre
 3. Open the private machine-share link supplied by the server owner and accept it.
 4. Confirm that the shared game host appears online in Tailscale.
 
-The client cannot connect unless Tailscale is running and the server owner's laptop is online.
+The client cannot connect unless Tailscale is running and the server owner's machine is online.
 
 ### 2. Download and extract the game
 
@@ -99,4 +99,3 @@ Please report security concerns privately as described in [SECURITY.md](SECURITY
 Original repository documentation and supporting project material are licensed under the [MIT License](LICENSE).
 
 Superstar Racing game executables, data files, artwork, names, trademarks, and other third-party material included in downloadable release assets are **not relicensed under MIT**. They remain the property of their respective owner(s) and are redistributed with permission. See [THIRD_PARTY_NOTICE.md](THIRD_PARTY_NOTICE.md).
-
