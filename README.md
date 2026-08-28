@@ -2,7 +2,9 @@
 
 Private multiplayer racing for the Superstar Racing community, delivered through an encrypted Tailscale network.
 
-> Access is invitation-only. The game server is available only while the host is online.
+> Access is invitation-only. The game server is hosted continuously on AWS and is reachable only through Tailscale.
+
+> **Version 1.1.0:** The game host has moved to AWS. Existing players must request the new private Tailscale machine-share invitation and install the v1.1.0 client; v1.0.0 points to the retired owner-machine address.
 
 <table>
   <tr>
@@ -46,7 +48,7 @@ Never post an invitation link, access token, or password in a GitHub issue, scre
 3. Open the private machine-share link supplied by the server owner and accept it.
 4. Confirm that the shared game host appears online in Tailscale.
 
-The client cannot connect unless Tailscale is running and the server owner's machine is online.
+The client cannot connect unless Tailscale is running and the private AWS game host is online.
 
 ### 2. Download and extract the game
 
@@ -107,7 +109,7 @@ If you are interested in running a separate private game setup with its own serv
 - Confirm Tailscale is connected.
 - Confirm you accepted the owner's machine-share invitation.
 - Confirm the shared host is online.
-- Ask the owner whether the game server is running.
+- Ask the owner to check the AWS game service status.
 
 ### Unauthorized or invalid player access token
 
@@ -121,14 +123,14 @@ Close the message and start `superstar-racing-launcher.exe` from the extracted g
 
 ### Windows SmartScreen appears
 
-The community launcher is not code-signed and performs runtime compatibility patching, so some antivirus products may show a heuristic false positive. The final v1.0.0 folder and ZIP were scanned locally with Microsoft Defender on August 28, 2026 (security intelligence version `1.457.370.0`) and produced no detections.
+The community launcher is not code-signed and performs runtime compatibility patching, so some antivirus products may show a heuristic false positive. The final v1.1.0 folder and ZIP were scanned locally with Microsoft Defender on August 28, 2026 (security intelligence version `1.457.370.0`) and produced no detections.
 
 No developer can guarantee identical results from every antivirus engine or future signature update. Do not disable antivirus protection. Verify the SHA-256 checksum shown on the GitHub release, download only from this repository, and contact the owner if security software blocks the client.
 
 ## Security and privacy
 
 - The published player package contains no database credentials, admin interface, or server source code.
-- The server and player API are reachable only while the owner's host and Tailscale connection are online.
+- The AWS game server and player API are reachable only through the private Tailscale connection.
 - Player access tokens are unique and can be revoked individually.
 - Selecting **Remember on this PC** stores the token under the current Windows user profile. Do not enable it on a shared computer.
 
