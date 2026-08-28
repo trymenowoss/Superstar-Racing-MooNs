@@ -13,6 +13,11 @@ Request these items privately from the server owner:
 3. Your unique **player access token**.
 4. Your in-game account credentials, if the owner created them separately.
 
+Request access privately through either of these official contacts:
+
+- **Discord:** `@iamsicknow`
+- **Telegram:** `@wanderbotnow`
+
 Never post an invitation link, access token, or password in a GitHub issue, screenshot, Discord channel, or other public location.
 
 ## Quick start
@@ -83,7 +88,9 @@ Close the message and start `superstar-racing-launcher.exe` from the extracted g
 
 ### Windows SmartScreen appears
 
-The community launcher is not code-signed. Verify the release checksum shown on the GitHub release before running it. Never download the client from an unofficial mirror.
+The community launcher is not code-signed and performs runtime compatibility patching, so some antivirus products may show a heuristic false positive. The final v1.0.0 folder and ZIP were scanned locally with Microsoft Defender on August 28, 2026 (security intelligence version `1.457.370.0`) and produced no detections.
+
+No developer can guarantee identical results from every antivirus engine or future signature update. Do not disable antivirus protection. Verify the SHA-256 checksum shown on the GitHub release, download only from this repository, and contact the owner if security software blocks the client.
 
 ## Security and privacy
 
