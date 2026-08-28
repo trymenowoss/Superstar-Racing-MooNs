@@ -6,7 +6,7 @@ Working now : Covering Guest removal, Skills/Relogin work, stricter DT/GP/Arena 
 
 > Download the client, start the launcher, and create an account or sign in inside the game.
 
-> **Version 1.2.0:** Public AWS connectivity is enabled. Install the v1.2.0 client because older clients point to retired private addresses.
+> **Version 1.2.1:** Public AWS connectivity is enabled, and clean installations now open the native Login/Create Account screen instead of entering a trial profile. Replace v1.2.0 with v1.2.1.
 
 <table>
   <tr>
@@ -85,7 +85,7 @@ Close the message and start `superstar-racing-launcher.exe` from the extracted g
 
 ### Windows SmartScreen appears
 
-The community launcher is not code-signed and performs runtime compatibility patching, so some antivirus products may show a heuristic false positive. The final v1.2.0 ZIP was scanned locally with Microsoft Defender on August 29, 2026 (security intelligence version `1.457.384.0`) and produced no detections.
+The community launcher is not code-signed and performs runtime compatibility patching, so some antivirus products may show a heuristic false positive. The final v1.2.1 ZIP was scanned locally with Microsoft Defender on August 29, 2026 (security intelligence version `1.457.384.0`) and produced no detections.
 
 No developer can guarantee identical results from every antivirus engine or future signature update. Do not disable antivirus protection. Verify the SHA-256 checksum shown on the GitHub release, download only from this repository, and contact the owner if security software blocks the client.
 
