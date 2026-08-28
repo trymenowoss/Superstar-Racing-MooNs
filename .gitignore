@@ -1,0 +1,8 @@
+*.zip
+*.exe
+*.fp
+player.json
+.settings.flow
+runtime/
+logs/
+
