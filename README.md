@@ -67,6 +67,18 @@ Start **superstar-racing-launcher.exe** again. Later starts open the native game
 3. Confirm your player name and access token.
 4. Select **Launch Game** and sign in through the native game login screen.
 
+## Updates and player requests
+
+Every updated client version, compatibility improvement, and new gameplay patch will be published in this repository's [Releases](../../releases/latest) section. Download updates only from this official repository.
+
+Superstar Racing MooNs is free to play. Players never need to pay real money to request available in-game content or currency. You may privately request:
+
+- Outfits and character items
+- Car bodies and available vehicle content
+- Additional CR$
+
+Send the request with your exact player name to Discord `@iamsicknow` or Telegram `@wanderbotnow`. Valid requests will be added within 24 hours. Never include your password or player access token in a content request.
+
 ## Troubleshooting
 
 ### Player login failed: server is offline
