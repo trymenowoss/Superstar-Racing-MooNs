@@ -6,6 +6,11 @@ Do not disclose access tokens, invitation links, passwords, private IP details b
 
 Contact the repository owner privately through their GitHub profile with a short description and a safe way to continue the report. Revoke any exposed player token immediately by asking the server owner to issue a replacement.
 
+Official private contacts:
+
+- Discord: `@iamsicknow`
+- Telegram: `@wanderbotnow`
+
 ## Player safety
 
 - Download releases only from this repository.
@@ -13,4 +18,3 @@ Contact the repository owner privately through their GitHub profile with a short
 - Keep Tailscale and Windows security updates current.
 - Never share your player access token or native game password.
 - Do not select **Remember on this PC** on shared or public computers.
-
