@@ -1,11 +1,12 @@
 # Superstar Racing MooNs
 
-Private multiplayer racing for the Superstar Racing community, delivered through an encrypted Tailscale network.
+Community multiplayer racing for Superstar Racing, hosted continuously on AWS.
+
 Working now : Covering Guest removal, Skills/Relogin work, stricter DT/GP/Arena anti-cheat, and player POV-only lounge customization with limits and finally DT/GP/Arena with cheats with dedicated leaderboards.
 
-> Access is invitation-only. The game server is hosted continuously on AWS and is reachable only through Tailscale.
+> Download the client, start the launcher, and create an account or sign in inside the game.
 
-> **Version 1.1.0:** The game host has moved to AWS. Existing players must request the new private Tailscale machine-share invitation and install the v1.1.0 client; v1.0.0 points to the retired owner-machine address.
+> **Version 1.2.0:** Public AWS connectivity is enabled. Install the v1.2.0 client because older clients point to retired private addresses.
 
 <table>
   <tr>
@@ -24,34 +25,9 @@ Working now : Covering Guest removal, Skills/Relogin work, stricter DT/GP/Arena 
 
 Superstar Racing MooNs is a community-patched version of [Superstar Racing Modded]. All rights to the original game, its branding, and its assets remain with respective rights holders. This community project does not claim ownership of the original game.
 
-## Before you download
-
-Request these items privately from the server owner:
-
-1. A **Tailscale machine-share invitation link**.
-2. Your **player name**.
-3. Your unique **player access token**.
-4. Your in-game account credentials, if the owner created them separately.
-
-Request access privately through either of these official contacts:
-
-- **Discord:** `@iamsicknow`
-- **Telegram:** `@wanderbotnow`
-
-Never post an invitation link, access token, or password in a GitHub issue, screenshot, Discord channel, or other public location.
-
 ## Quick start
 
-### 1. Connect through Tailscale
-
-1. Download and install [Tailscale for Windows](https://tailscale.com/download/windows).
-2. Sign in to Tailscale with your own account.
-3. Open the private machine-share link supplied by the server owner and accept it.
-4. Confirm that the shared game host appears online in Tailscale.
-
-The client cannot connect unless Tailscale is running and the private AWS game host is online.
-
-### 2. Download and extract the game
+### 1. Download and extract the game
 
 1. Open this repository's [Releases](../../releases/latest) page.
 2. Download **Superstar Racing MooNs.zip** from the latest release.
@@ -60,32 +36,24 @@ The client cannot connect unless Tailscale is running and the private AWS game h
 
 Do not run the launcher from inside the ZIP.
 
-### 3. Start the player launcher
+### 2. Start the player launcher
 
 Run **superstar-racing-launcher.exe**. Do not start `Superstar Racing.exe` directly.
 
-![Superstar Racing MooNs player launcher](docs/launcher-sign-in.png)
+Select **Play Now**. Use the native game screen to create an account or sign in
+with your username/email and password.
 
-Enter the private values issued to you:
+### 3. Complete the first launch
 
-- **Player Name** — your server profile name.
-- **Player Access Token** — your unique launcher token.
-- **Remember on this PC** — keeps the token on your Windows account for later launches.
-
-Select **Launch Game**.
-
-### 4. Complete the first launch
-
-On a clean installation, the first start performs a one-time game-file verification and guest bootstrap. When it reaches the lobby, close the game normally.
-
-Start **superstar-racing-launcher.exe** again. Later starts open the native game login screen directly. Enter the in-game username/email and password supplied or registered for your account.
+On a clean installation, the first start performs a one-time game-file
+verification and opens the native account screen. Create an account or sign in,
+then enter the lobby.
 
 ## Every time you play
 
-1. Start Tailscale and verify the shared host is online.
+1. Make sure your computer is connected to the internet.
 2. Run `superstar-racing-launcher.exe`.
-3. Confirm your player name and access token.
-4. Select **Launch Game** and sign in through the native game login screen.
+3. Select **Play Now** and sign in through the native game login screen.
 
 ## Updates and player requests
 
@@ -97,7 +65,7 @@ Superstar Racing MooNs is free to play. Players never need to pay real money to 
 - Car bodies and available vehicle content
 - Additional CR$
 
-Send the request with your exact player name to Discord `@iamsicknow` or Telegram `@wanderbotnow`. Valid requests will be added within 24 hours. Never include your password or player access token in a content request.
+Send the request with your exact in-game name to Discord `@iamsicknow` or Telegram `@wanderbotnow`. Valid requests will be added within 24 hours. Never include your password in a content request.
 
 ### Want your own private setup?
 
@@ -107,16 +75,9 @@ If you are interested in running a separate private game setup with its own serv
 
 ### Player login failed: server is offline
 
-- Confirm Tailscale is connected.
-- Confirm you accepted the owner's machine-share invitation.
-- Confirm the shared host is online.
+- Confirm your internet connection is working.
+- Allow the launcher and game through local firewall or antivirus prompts.
 - Ask the owner to check the AWS game service status.
-
-### Unauthorized or invalid player access token
-
-- Check that the player name matches exactly.
-- Paste the complete token without spaces.
-- Ask the owner to issue a replacement token if yours was rotated or exposed.
 
 ### The game asks for the official retail launcher
 
@@ -124,16 +85,15 @@ Close the message and start `superstar-racing-launcher.exe` from the extracted g
 
 ### Windows SmartScreen appears
 
-The community launcher is not code-signed and performs runtime compatibility patching, so some antivirus products may show a heuristic false positive. The final v1.1.0 folder and ZIP were scanned locally with Microsoft Defender on August 28, 2026 (security intelligence version `1.457.370.0`) and produced no detections.
+The community launcher is not code-signed and performs runtime compatibility patching, so some antivirus products may show a heuristic false positive. The final v1.2.0 ZIP was scanned locally with Microsoft Defender on August 29, 2026 (security intelligence version `1.457.384.0`) and produced no detections.
 
 No developer can guarantee identical results from every antivirus engine or future signature update. Do not disable antivirus protection. Verify the SHA-256 checksum shown on the GitHub release, download only from this repository, and contact the owner if security software blocks the client.
 
 ## Security and privacy
 
 - The published player package contains no database credentials, admin interface, or server source code.
-- The AWS game server and player API are reachable only through the private Tailscale connection.
-- Player access tokens are unique and can be revoked individually.
-- Selecting **Remember on this PC** stores the token under the current Windows user profile. Do not enable it on a shared computer.
+- Public access is limited to the game, account, and read-only player-state services. The admin interface and database are not exposed publicly.
+- Native game passwords remain private and are not included in the downloadable package.
 
 Please report security concerns privately as described in [SECURITY.md](SECURITY.md).
 
