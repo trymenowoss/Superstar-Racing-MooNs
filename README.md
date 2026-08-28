@@ -21,7 +21,7 @@ Private multiplayer racing for the Superstar Racing community, delivered through
 
 ## Original game and ownership
 
-Superstar Racing MooNs is a community-patched version of [Superstar Racing Modded](https://superstarracing.eu/), owned by **Huzzyman**. All rights to the original game, its branding, and its assets remain with Huzzyman and their respective rights holders. This community project does not claim ownership of the original game.
+Superstar Racing MooNs is a community-patched version of [Superstar Racing Modded]. All rights to the original game, its branding, and its assets remain with respective rights holders. This community project does not claim ownership of the original game.
 
 ## Before you download
 
