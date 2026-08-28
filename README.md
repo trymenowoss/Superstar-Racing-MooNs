@@ -1,6 +1,7 @@
 # Superstar Racing MooNs
 
 Private multiplayer racing for the Superstar Racing community, delivered through an encrypted Tailscale network.
+Working now : Covering Guest removal, Skills/Relogin work, stricter DT/GP/Arena anti-cheat, and player POV-only lounge customization with limits and finally DT/GP/Arena with cheats with dedicated leaderboards.
 
 > Access is invitation-only. The game server is hosted continuously on AWS and is reachable only through Tailscale.
 
