@@ -79,6 +79,10 @@ Superstar Racing MooNs is free to play. Players never need to pay real money to 
 
 Send the request with your exact player name to Discord `@iamsicknow` or Telegram `@wanderbotnow`. Valid requests will be added within 24 hours. Never include your password or player access token in a content request.
 
+### Want your own private setup?
+
+If you are interested in running a separate private game setup with its own server, contact the owner on Discord `@iamsicknow` or Telegram `@wanderbotnow`. We can discuss whether a private setup is suitable for you, and the owner may help guide you through the setup process. Availability and requirements are discussed privately.
+
 ## Troubleshooting
 
 ### Player login failed: server is offline
