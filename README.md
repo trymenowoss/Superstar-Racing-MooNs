@@ -4,6 +4,19 @@ Private multiplayer racing for the Superstar Racing community, delivered through
 
 > Access is invitation-only. The game server is available only while the host is online.
 
+<table>
+  <tr>
+    <td width="33.33%"><img src="docs/game-lobby.png" alt="Superstar Racing MooNs main lobby"></td>
+    <td width="33.33%"><img src="docs/mini-gp-lobby.png" alt="Superstar Racing MooNs Mini GP lobby"></td>
+    <td width="33.33%"><img src="docs/circuit-race.png" alt="Superstar Racing MooNs circuit race"></td>
+  </tr>
+  <tr align="center">
+    <td><strong>Main Lobby</strong></td>
+    <td><strong>Mini GP Lobby</strong></td>
+    <td><strong>Circuit Racing</strong></td>
+  </tr>
+</table>
+
 ## Original game and ownership
 
 Superstar Racing MooNs is a community-patched version of [Superstar Racing Modded](https://superstarracing.eu/), owned by **Huzzyman**. All rights to the original game, its branding, and its assets remain with Huzzyman and their respective rights holders. This community project does not claim ownership of the original game.
