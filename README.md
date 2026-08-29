@@ -6,7 +6,7 @@ Working now : Covering Guest removal, Skills/Relogin work, stricter DT/GP/Arena 
 
 > Download the client, start the launcher, and create an account or sign in inside the game.
 
-> **Version 1.4.1:** Adds launcher-managed updates, automatic native-login binding for newly created accounts and password resets, reliable prelounge-to-International presence, active-paddock selection, self `/where` lookup, and immediate reciprocal friend addition. It also removes legacy “Local” team wording, preserves large team-member point totals without signed-integer overflow, and displays the MooNs release version in the Main Menu.
+> **Version 1.4.2:** Fixes the stale native prelounge room object by tracking the authoritative hosted paddock used by `/where`, `/who`, presence sync, and paddock selection. The movement transition now follows the original client’s one-shot callback guard. The launcher also disables **Play Now** until it confirms the installed version is current, preventing stale clients from joining when an update is available.
 
 <table>
   <tr>
@@ -55,11 +55,11 @@ screen opens directly. Create an account or sign in, then enter the lobby.
 Guest identities are temporary and uniquely numbered for active sessions. They
 never inherit or overwrite a registered player's profile.
 
-### Verify the v1.4.1 download
+### Verify the v1.4.2 download
 
 SHA-256 for **Superstar Racing MooNs.zip**:
 
-`E4AA72EB294B05156139ACD2FEF3F08FF8B3743E378ED712AAA5DD618E431170`
+`A254ADE09C29DAB52101BF1BF235D0E6E15B0E58992239CEB5D9F48C12F36A19`
 
 ## Every time you play
 
