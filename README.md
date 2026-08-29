@@ -6,7 +6,7 @@ Working now : Covering Guest removal, Skills/Relogin work, stricter DT/GP/Arena 
 
 > Download the client, start the launcher, and create an account or sign in inside the game.
 
-> **Version 1.2.1:** Public AWS connectivity is enabled, and clean installations now open the native Login/Create Account screen instead of entering a trial profile. Replace v1.2.0 with v1.2.1.
+> **Version 1.2.2:** Corrects Guest/account profile isolation. A clean installation uses a temporary numbered Guest only for its first download/bootstrap session. Later launches open Login, and every authenticated player receives only that account's saved stats, currency, inventory, outfits, achievements, team, and settings. Replace older clients with v1.2.2.
 
 <table>
   <tr>
@@ -23,7 +23,7 @@ Working now : Covering Guest removal, Skills/Relogin work, stricter DT/GP/Arena 
 
 ## Original game and ownership
 
-Superstar Racing MooNs is a community-patched version of [Superstar Racing Modded]. All rights to the original game, its branding, and its assets remain with respective rights holders. This community project does not claim ownership of the original game.
+Superstar Racing MooNs is a community-patched version of [Superstar Racing Modded](https://superstarracing.eu/). All rights to the original game, its branding, and its assets remain with respective rights holders. This community project does not claim ownership of the original game.
 
 ## Quick start
 
@@ -45,9 +45,21 @@ with your username/email and password.
 
 ### 3. Complete the first launch
 
-On a clean installation, the first start performs a one-time game-file
-verification and opens the native account screen. Create an account or sign in,
-then enter the lobby.
+On a clean installation, the first start performs the one-time game-file download
+and bootstrap as a temporary numbered Guest. Close the game after the download
+and lobby entry finish.
+
+Start `superstar-racing-launcher.exe` again. The native Login/Create Account
+screen opens directly. Create an account or sign in, then enter the lobby.
+
+Guest identities are temporary and uniquely numbered for active sessions. They
+never inherit or overwrite a registered player's profile.
+
+### Verify the v1.2.2 download
+
+SHA-256 for **Superstar Racing MooNs.zip**:
+
+`CC6252A154BD658E1C728B05F69D8C9CCC678F3376D4E9BA75F8DD88E3CE2CFC`
 
 ## Every time you play
 
@@ -85,7 +97,7 @@ Close the message and start `superstar-racing-launcher.exe` from the extracted g
 
 ### Windows SmartScreen appears
 
-The community launcher is not code-signed and performs runtime compatibility patching, so some antivirus products may show a heuristic false positive. The final v1.2.1 ZIP was scanned locally with Microsoft Defender on August 29, 2026 (security intelligence version `1.457.384.0`) and produced no detections.
+The community launcher is not code-signed and performs runtime compatibility patching, so some antivirus products may show a heuristic false positive. The final v1.2.2 ZIP was scanned locally with Microsoft Defender on August 29, 2026 (security intelligence version `1.457.384.0`) and produced no detections.
 
 No developer can guarantee identical results from every antivirus engine or future signature update. Do not disable antivirus protection. Verify the SHA-256 checksum shown on the GitHub release, download only from this repository, and contact the owner if security software blocks the client.
 
