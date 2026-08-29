@@ -6,6 +6,8 @@ Working now : Covering Guest removal, Skills/Relogin work, stricter DT/GP/Arena 
 
 > Download the client, start the launcher, and create an account or sign in inside the game.
 
+> **Version 1.4.3:** Fixes the Windows updater restart failure after a completed download. The launcher now resets inherited PyInstaller bootloader state before starting the replacement executable, while retaining the v1.4.2 paddock synchronization and mandatory-update behavior.
+
 > **Version 1.4.2:** Fixes the stale native prelounge room object by tracking the authoritative hosted paddock used by `/where`, `/who`, presence sync, and paddock selection. The movement transition now follows the original client’s one-shot callback guard. The launcher also disables **Play Now** until it confirms the installed version is current, preventing stale clients from joining when an update is available.
 
 <table>
@@ -55,11 +57,11 @@ screen opens directly. Create an account or sign in, then enter the lobby.
 Guest identities are temporary and uniquely numbered for active sessions. They
 never inherit or overwrite a registered player's profile.
 
-### Verify the v1.4.2 download
+### Verify the v1.4.3 download
 
 SHA-256 for **Superstar Racing MooNs.zip**:
 
-`A254ADE09C29DAB52101BF1BF235D0E6E15B0E58992239CEB5D9F48C12F36A19`
+`BEC5FB45D450B341C997C8C342B99F541E49F4994C1622C8387CE15DC1B377EE`
 
 ## Every time you play
 
