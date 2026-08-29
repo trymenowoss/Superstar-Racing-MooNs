@@ -6,6 +6,8 @@ Working now : Covering Guest removal, Skills/Relogin work, stricter DT/GP/Arena 
 
 > Download the client, start the launcher, and create an account or sign in inside the game.
 
+> **Version 1.4.5:** Restores complete remote avatar bodies through the original network-avatar graph, fixes live race invitations from Challenge Players, persists every selectable country flag, and commits MiniGP/GPK finishes atomically so valid race times are not lost or replaced by slower results.
+
 > **Version 1.4.4:** Restores live All, Team, Country, and private chat delivery after a bridge write failure, keeps the bridge alive when diagnostic logging cannot write, and uses the authoritative paddock room for remote avatar creation and movement so nearby players render for each other.
 
 > **Version 1.4.3:** Fixes the Windows updater restart failure after a completed download. The launcher now resets inherited PyInstaller bootloader state before starting the replacement executable, while retaining the v1.4.2 paddock synchronization and mandatory-update behavior.
@@ -59,11 +61,11 @@ screen opens directly. Create an account or sign in, then enter the lobby.
 Guest identities are temporary and uniquely numbered for active sessions. They
 never inherit or overwrite a registered player's profile.
 
-### Verify the v1.4.4 download
+### Verify the v1.4.5 download
 
 SHA-256 for **Superstar Racing MooNs.zip**:
 
-`ADDD8F1849BC8CBB8C3425F88A26339A746EDCB65E3F34C255B3F5A2F6DF958E`
+`DF911D4F370591E956C7EB12D7ADFB1BFA99A2986CF990F7D7639454F2DC1DCF`
 
 ## Every time you play
 
