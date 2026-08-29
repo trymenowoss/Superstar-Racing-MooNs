@@ -6,7 +6,7 @@ Working now : Covering Guest removal, Skills/Relogin work, stricter DT/GP/Arena 
 
 > Download the client, start the launcher, and create an account or sign in inside the game.
 
-> **Version 1.3.0:** Adds live multiplayer synchronization for lounge movement, emotes, chat, friend/team requests, and shared head-to-head race invitations. It also fixes Star Race queue counts, first-race countdown stalls, profile portrait flashing, account registration dates, and Race Gear clothing purchases. Replace older clients with v1.3.0.
+> **Version 1.3.1:** Fixes country selection persistence and the player flag shown in GP results. It also restores the one-time transition into the International paddock, highlights the active paddock in the paddock list, and restores the original localized/colorized emote notices. Replace older clients with v1.3.1.
 
 <table>
   <tr>
@@ -55,11 +55,11 @@ screen opens directly. Create an account or sign in, then enter the lobby.
 Guest identities are temporary and uniquely numbered for active sessions. They
 never inherit or overwrite a registered player's profile.
 
-### Verify the v1.3.0 download
+### Verify the v1.3.1 download
 
 SHA-256 for **Superstar Racing MooNs.zip**:
 
-`02F856D54CD391F040A09F781EC0F49D4302538AEFE2CDC5E738B19AD4860386`
+`6AD91E8E0DEA18729B3E66C90C5B756DDD8C67060235133B201B8D1C8CA4FF4C`
 
 ## Every time you play
 
@@ -97,7 +97,7 @@ Close the message and start `superstar-racing-launcher.exe` from the extracted g
 
 ### Windows SmartScreen appears
 
-The community launcher is not code-signed and performs runtime compatibility patching, so some antivirus products may show a heuristic false positive. The final v1.3.0 ZIP was scanned locally with Microsoft Defender on August 29, 2026 (security intelligence version `1.457.393.0`) and produced no detections.
+The community launcher is not code-signed and performs runtime compatibility patching, so some antivirus products may show a heuristic false positive. Release ZIPs are checked locally with Microsoft Defender before publication; the result can still vary with future security-intelligence updates.
 
 No developer can guarantee identical results from every antivirus engine or future signature update. Do not disable antivirus protection. Verify the SHA-256 checksum shown on the GitHub release, download only from this repository, and contact the owner if security software blocks the client.
 
