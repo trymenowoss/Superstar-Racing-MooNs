@@ -6,7 +6,7 @@ Working now : Covering Guest removal, Skills/Relogin work, stricter DT/GP/Arena 
 
 > Download the client, start the launcher, and create an account or sign in inside the game.
 
-> **Version 1.3.1:** Fixes country selection persistence and the player flag shown in GP results. It also restores the one-time transition into the International paddock, highlights the active paddock in the paddock list, and restores the original localized/colorized emote notices. Replace older clients with v1.3.1.
+> **Version 1.4.1:** Adds launcher-managed updates, automatic native-login binding for newly created accounts and password resets, reliable prelounge-to-International presence, active-paddock selection, self `/where` lookup, and immediate reciprocal friend addition. It also removes legacy “Local” team wording, preserves large team-member point totals without signed-integer overflow, and displays the MooNs release version in the Main Menu.
 
 <table>
   <tr>
@@ -55,11 +55,11 @@ screen opens directly. Create an account or sign in, then enter the lobby.
 Guest identities are temporary and uniquely numbered for active sessions. They
 never inherit or overwrite a registered player's profile.
 
-### Verify the v1.3.1 download
+### Verify the v1.4.1 download
 
 SHA-256 for **Superstar Racing MooNs.zip**:
 
-`6AD91E8E0DEA18729B3E66C90C5B756DDD8C67060235133B201B8D1C8CA4FF4C`
+`E4AA72EB294B05156139ACD2FEF3F08FF8B3743E378ED712AAA5DD618E431170`
 
 ## Every time you play
 
@@ -69,7 +69,13 @@ SHA-256 for **Superstar Racing MooNs.zip**:
 
 ## Updates and player requests
 
-Every updated client version, compatibility improvement, and new gameplay patch will be published in this repository's [Releases](../../releases/latest) section. Download updates only from this official repository.
+The launcher checks this repository for new releases. When an update is available,
+select **Update** in `superstar-racing-launcher.exe`; it verifies the published
+SHA-256 digest, installs the package, preserves local settings, and restarts itself.
+
+Every updated client version, compatibility improvement, and new gameplay patch
+will also be published in this repository's [Releases](../../releases/latest)
+section. Download updates only from this official repository.
 
 Superstar Racing MooNs is free to play. Players never need to pay real money to request available in-game content or currency. You may privately request:
 
