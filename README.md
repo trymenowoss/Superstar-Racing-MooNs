@@ -21,10 +21,6 @@ Working now : Covering Guest removal, Skills/Relogin work, stricter DT/GP/Arena 
   </tr>
 </table>
 
-## Original game and ownership
-
-Superstar Racing MooNs is a community-patched version of [Superstar Racing Modded](https://superstarracing.eu/). All rights to the original game, its branding, and its assets remain with respective rights holders. This community project does not claim ownership of the original game.
-
 ## Quick start
 
 ### 1. Download and extract the game
