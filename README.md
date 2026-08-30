@@ -6,6 +6,8 @@ Working now : Covering Guest removal, Skills/Relogin work, stricter DT/GP/Arena 
 
 > Download the client, start the launcher, and create an account or sign in inside the game.
 
+> **Version 1.4.6:** Fixes the Challenge Players Race button's malformed invitation list and applies each driver's hosted country flag and track medals to every MiniGP/GPK leaderboard row. Ali now displays the India flag and one Spain gold medal.
+
 > **Version 1.4.5:** Restores complete remote avatar bodies through the original network-avatar graph, fixes live race invitations from Challenge Players, persists every selectable country flag, and commits MiniGP/GPK finishes atomically so valid race times are not lost or replaced by slower results.
 
 > **Version 1.4.4:** Restores live All, Team, Country, and private chat delivery after a bridge write failure, keeps the bridge alive when diagnostic logging cannot write, and uses the authoritative paddock room for remote avatar creation and movement so nearby players render for each other.
@@ -61,11 +63,11 @@ screen opens directly. Create an account or sign in, then enter the lobby.
 Guest identities are temporary and uniquely numbered for active sessions. They
 never inherit or overwrite a registered player's profile.
 
-### Verify the v1.4.5 download
+### Verify the v1.4.6 download
 
 SHA-256 for **Superstar Racing MooNs.zip**:
 
-`DF911D4F370591E956C7EB12D7ADFB1BFA99A2986CF990F7D7639454F2DC1DCF`
+`DC1870D3C72653205DACB5B692FA9DFD2376630B24E8D037CA2DEE299CCC3907`
 
 ## Every time you play
 
