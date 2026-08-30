@@ -8,16 +8,6 @@ Working now : Covering Guest removal, Skills/Relogin work, stricter DT/GP/Arena 
 
 > **Version 1.4.7:** Fixes stale Online status for disconnected friends and team members by following the original client's presence-bit behavior and refreshing both contact lists from authenticated presence. It also replaces legacy client, host, portal, and chat-helper labels in startup logs with MooNs branding.
 
-> **Version 1.4.6:** Fixes the Challenge Players Race button's malformed invitation list and applies each driver's hosted country flag and track medals to every MiniGP/GPK leaderboard row. Ali now displays the India flag and one Spain gold medal.
-
-> **Version 1.4.5:** Restores complete remote avatar bodies through the original network-avatar graph, fixes live race invitations from Challenge Players, persists every selectable country flag, and commits MiniGP/GPK finishes atomically so valid race times are not lost or replaced by slower results.
-
-> **Version 1.4.4:** Restores live All, Team, Country, and private chat delivery after a bridge write failure, keeps the bridge alive when diagnostic logging cannot write, and uses the authoritative paddock room for remote avatar creation and movement so nearby players render for each other.
-
-> **Version 1.4.3:** Fixes the Windows updater restart failure after a completed download. The launcher now resets inherited PyInstaller bootloader state before starting the replacement executable, while retaining the v1.4.2 paddock synchronization and mandatory-update behavior.
-
-> **Version 1.4.2:** Fixes the stale native prelounge room object by tracking the authoritative hosted paddock used by `/where`, `/who`, presence sync, and paddock selection. The movement transition now follows the original client’s one-shot callback guard. The launcher also disables **Play Now** until it confirms the installed version is current, preventing stale clients from joining when an update is available.
-
 <table>
   <tr>
     <td width="33.33%"><img src="docs/game-lobby.png" alt="Superstar Racing MooNs main lobby"></td>

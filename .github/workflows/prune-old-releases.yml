@@ -1,0 +1,27 @@
+name: Keep only latest release
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: write
+
+jobs:
+  prune:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      KEEP_TAG: ${{ github.event.release.tag_name }}
+    steps:
+      - name: Delete older releases and tags
+        shell: bash
+        run: |
+          gh release list --repo "$GITHUB_REPOSITORY" --limit 100 \
+            --json tagName --jq '.[].tagName' |
+          while IFS= read -r tag; do
+            if [[ -n "$tag" && "$tag" != "$KEEP_TAG" ]]; then
+              gh release delete "$tag" --repo "$GITHUB_REPOSITORY" \
+                --cleanup-tag --yes
+            fi
+          done
