@@ -6,7 +6,7 @@ Working now : Stricter DT/GP/Arena anti-cheat, and player POV-only lounge custom
 
 > Download the client, start the launcher, and create an account or sign in inside the game.
 
-> **Version 1.4.28:** Restores the original zero-player race flow with optional Computer racers and the original 19-player challenge limit. When free Daily Tournament sessions reach zero, the original tier-priced CR$ confirmation now purchases another session. Includes the v1.4.27 profile medal-filter and multiplayer fixes.
+> **Version 1.4.29:** Restores the original GM hierarchy and help flow. Staff labels now use GM, VGM, and SGM; Get Help routes players only to online staff who enabled Game Master mode; and the original staff review popup plus GM command permissions are available. Includes the v1.4.28 race and paid-session fixes.
 
 <table>
   <tr>
@@ -39,11 +39,11 @@ Run **superstar-racing-launcher.exe**. Do not start `Superstar Racing.exe` direc
 Select **Play Now**. Use the native game screen to create an account or sign in
 with your username/email and password.
 
-### Verify the v1.4.28 download
+### Verify the v1.4.29 download
 
 SHA-256 for **Superstar-Racing-Player.zip**:
 
-`4D30B7263E658386119B58E9AF8010B13FD669C4E902EF4247071BDF21739DDF`
+`2F9F8317E1D565DC6505AA2F7D24308B7E1019E43F0EDD9F2F771CA2E973F57A`
 
 ## Every time you play
 
