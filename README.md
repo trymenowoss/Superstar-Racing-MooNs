@@ -6,7 +6,7 @@ Working now : Stricter DT/GP/Arena anti-cheat, and player POV-only lounge custom
 
 > Download the client, start the launcher, and create an account or sign in inside the game.
 
-> **Version 1.4.17:** Restores original-style GP/tournament award animations and a separate overhead medal row, and adds server-side race-result validation, approved-build integrity reporting, pseudonymous device enforcement, and anti-cheat audit controls.
+> **Version 1.4.18:** Fixes the original GP team-winner presentation: every player on the winning team receives the native gold laurel above their avatar, the correct track name, and the separate overhead medal row. It also fixes GP team-board tie ordering so the displayed winner and awarded winner always agree.
 
 <table>
   <tr>
@@ -39,11 +39,11 @@ Run **superstar-racing-launcher.exe**. Do not start `Superstar Racing.exe` direc
 Select **Play Now**. Use the native game screen to create an account or sign in
 with your username/email and password.
 
-### Verify the v1.4.17 download
+### Verify the v1.4.18 download
 
 SHA-256 for **Superstar-Racing-Player.zip**:
 
-`1F46D7D0B67FBCAA0607F27D20C301EE7D8465DE336255E596ACD5ED3ABB5A9F`
+`C3CC12526735F077C3D4C8D4D530627E21C73F234881E7C360BE7FD9EE76B893`
 
 ## Every time you play
 
