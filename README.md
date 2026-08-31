@@ -6,7 +6,7 @@ Working now : Stricter DT/GP/Arena anti-cheat, and player POV-only lounge custom
 
 > Download the client, start the launcher, and create an account or sign in inside the game.
 
-> **Version 1.4.30:** Restores the original live winner screens in the tournament area. The two displays show the previous completed track's 1st, 2nd, and 3rd place drivers with their real outfits, alternating GP keyboard, GP gamepad/wheel, Xtreme keyboard, and Xtreme gamepad/wheel. Face shape and tone selections are now remembered after relaunch. Includes the v1.4.29 Game Master flow.
+> **Version 1.4.31:** Fixes multiplayer identity and flow synchronization. Each remote player now shows their own tournament ring, team-winner laurel, outfit, face, and team; the tournament screens use the previous completed calendar track; Daily Tournament sessions restore their running timer; race invitations wait for acceptance and quit returns to the paddock; repeat login and game shutdown use the original reliable flow. All-time team points now use the authoritative 64-bit team total, and Spain winners receive the correct GP 2026 Spain Winner torso.
 
 <table>
   <tr>
@@ -39,11 +39,11 @@ Run **superstar-racing-launcher.exe**. Do not start `Superstar Racing.exe` direc
 Select **Play Now**. Use the native game screen to create an account or sign in
 with your username/email and password.
 
-### Verify the v1.4.30 download
+### Verify the v1.4.31 download
 
 SHA-256 for **Superstar-Racing-Player.zip**:
 
-`6CA1F46183ED8E536A13DC59DB2A9D246E35AFEF0632E4C1B393379402BB6EDF`
+`3AB8342B6193926A10CB0DEDF7FABC3A5ACE10C14144AF934022BD5649CB8DFD`
 
 ## Every time you play
 
