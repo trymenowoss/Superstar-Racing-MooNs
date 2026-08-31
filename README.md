@@ -6,7 +6,7 @@ Working now : Stricter DT/GP/Arena anti-cheat, and player POV-only lounge custom
 
 > Download the client, start the launcher, and create an account or sign in inside the game.
 
-> **Version 1.4.27:** Keeps the original Driver's License Player, Star Tournament, and Team medal filters working, including **Use as my filter**. It also includes the v1.4.26 fixes for original-style team/race invitations, challenge selection, per-player staff identity, team colors, and Daily Tournament sessions.
+> **Version 1.4.28:** Restores the original zero-player race flow with optional Computer racers and the original 19-player challenge limit. When free Daily Tournament sessions reach zero, the original tier-priced CR$ confirmation now purchases another session. Includes the v1.4.27 profile medal-filter and multiplayer fixes.
 
 <table>
   <tr>
@@ -39,11 +39,11 @@ Run **superstar-racing-launcher.exe**. Do not start `Superstar Racing.exe` direc
 Select **Play Now**. Use the native game screen to create an account or sign in
 with your username/email and password.
 
-### Verify the v1.4.27 download
+### Verify the v1.4.28 download
 
 SHA-256 for **Superstar-Racing-Player.zip**:
 
-`A2212BF7E822A288E3FA60A36E378B15D63EDB963E058BEADFBB7ADD10AF6456`
+`4D30B7263E658386119B58E9AF8010B13FD669C4E902EF4247071BDF21739DDF`
 
 ## Every time you play
 
