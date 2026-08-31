@@ -6,7 +6,7 @@ Working now : Stricter DT/GP/Arena anti-cheat, and player POV-only lounge custom
 
 > Download the client, start the launcher, and create an account or sign in inside the game.
 
-> **Version 1.4.26:** Fixes original-style team switching invitations and race invitation popups, challenge row selection, per-player staff name/ring identity, remote team colors, and the Daily Tournament timer/Stop Session state.
+> **Version 1.4.27:** Keeps the original Driver's License Player, Star Tournament, and Team medal filters working, including **Use as my filter**. It also includes the v1.4.26 fixes for original-style team/race invitations, challenge selection, per-player staff identity, team colors, and Daily Tournament sessions.
 
 <table>
   <tr>
@@ -39,11 +39,11 @@ Run **superstar-racing-launcher.exe**. Do not start `Superstar Racing.exe` direc
 Select **Play Now**. Use the native game screen to create an account or sign in
 with your username/email and password.
 
-### Verify the v1.4.26 download
+### Verify the v1.4.27 download
 
 SHA-256 for **Superstar-Racing-Player.zip**:
 
-`694DC04A7DFB2732BE3A0B9000F18B6D9F51DE0C771BB9DE4C80612731A3EC36`
+`A2212BF7E822A288E3FA60A36E378B15D63EDB963E058BEADFBB7ADD10AF6456`
 
 ## Every time you play
 
