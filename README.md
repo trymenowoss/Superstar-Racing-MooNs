@@ -39,18 +39,6 @@ Run **superstar-racing-launcher.exe**. Do not start `Superstar Racing.exe` direc
 Select **Play Now**. Use the native game screen to create an account or sign in
 with your username/email and password.
 
-### 3. Complete the first launch
-
-On a clean installation, the first start performs the one-time game-file download
-and bootstrap as a temporary numbered Guest. Close the game after the download
-and lobby entry finish.
-
-Start `superstar-racing-launcher.exe` again. The native Login/Create Account
-screen opens directly. Create an account or sign in, then enter the lobby.
-
-Guest identities are temporary and uniquely numbered for active sessions. They
-never inherit or overwrite a registered player's profile.
-
 ### Verify the v1.4.7 download
 
 SHA-256 for **Superstar Racing MooNs.zip**:
@@ -73,7 +61,7 @@ Every updated client version, compatibility improvement, and new gameplay patch
 will also be published in this repository's [Releases](../../releases/latest)
 section. Download updates only from this official repository.
 
-Superstar Racing MooNs is free to play. Players never need to pay real money to request available in-game content or currency. You may privately request:
+Superstar Racing MooNs is free to play. Players never need to pay real money to request available in-game content or currency or for servers. You may privately request:
 
 - Outfits and character items
 - Car bodies and available vehicle content
