@@ -6,7 +6,7 @@ Working now : Stricter DT/GP/Arena anti-cheat, and player POV-only lounge custom
 
 > Download the client, start the launcher, and create an account or sign in inside the game.
 
-> **Version 1.4.7:** Fixes stale Online status for disconnected friends and team members by following the original client's presence-bit behavior and refreshing both contact lists from authenticated presence. It also replaces legacy client, host, portal, and chat-helper labels in startup logs with MooNs branding.
+> **Version 1.4.17:** Restores original-style GP/tournament award animations and a separate overhead medal row, and adds server-side race-result validation, approved-build integrity reporting, pseudonymous device enforcement, and anti-cheat audit controls.
 
 <table>
   <tr>
@@ -26,7 +26,7 @@ Working now : Stricter DT/GP/Arena anti-cheat, and player POV-only lounge custom
 ### 1. Download and extract the game
 
 1. Open this repository's [Releases](../../releases/latest) page.
-2. Download **Superstar Racing MooNs.zip** from the latest release.
+2. Download **Superstar-Racing-Player.zip** from the latest release.
 3. Right-click the ZIP and select **Extract All**.
 4. Open the extracted **Superstar Racing MooNs** folder.
 
@@ -39,11 +39,11 @@ Run **superstar-racing-launcher.exe**. Do not start `Superstar Racing.exe` direc
 Select **Play Now**. Use the native game screen to create an account or sign in
 with your username/email and password.
 
-### Verify the v1.4.7 download
+### Verify the v1.4.17 download
 
-SHA-256 for **Superstar Racing MooNs.zip**:
+SHA-256 for **Superstar-Racing-Player.zip**:
 
-`5C639CDEBF1DC136DBDB1359F40FBC4EF04C8125B59CC773AC2849951AF799E5`
+`1F46D7D0B67FBCAA0607F27D20C301EE7D8465DE336255E596ACD5ED3ABB5A9F`
 
 ## Every time you play
 
@@ -96,6 +96,8 @@ No developer can guarantee identical results from every antivirus engine or futu
 - The published player package contains no database credentials, admin interface, or server source code.
 - Public access is limited to the game, account, and read-only player-state services. The admin interface and database are not exposed publicly.
 - Native game passwords remain private and are not included in the downloadable package.
+- Hardware enforcement uses a one-way pseudonymous device digest; raw Windows machine identifiers are not transmitted or stored.
+- Race rewards, progression, and leaderboard submissions are validated server-side. Client integrity signals are supporting evidence and are retained for administrator review.
 
 Please report security concerns privately as described in [SECURITY.md](SECURITY.md).
 
