@@ -6,7 +6,7 @@ Working now : Stricter DT/GP/Arena anti-cheat, and player POV-only lounge custom
 
 > Download the client, start the launcher, and create an account or sign in inside the game.
 
-> **Version 1.4.29:** Restores the original GM hierarchy and help flow. Staff labels now use GM, VGM, and SGM; Get Help routes players only to online staff who enabled Game Master mode; and the original staff review popup plus GM command permissions are available. Includes the v1.4.28 race and paid-session fixes.
+> **Version 1.4.30:** Restores the original live winner screens in the tournament area. The two displays show the previous completed track's 1st, 2nd, and 3rd place drivers with their real outfits, alternating GP keyboard, GP gamepad/wheel, Xtreme keyboard, and Xtreme gamepad/wheel. Face shape and tone selections are now remembered after relaunch. Includes the v1.4.29 Game Master flow.
 
 <table>
   <tr>
@@ -39,11 +39,11 @@ Run **superstar-racing-launcher.exe**. Do not start `Superstar Racing.exe` direc
 Select **Play Now**. Use the native game screen to create an account or sign in
 with your username/email and password.
 
-### Verify the v1.4.29 download
+### Verify the v1.4.30 download
 
 SHA-256 for **Superstar-Racing-Player.zip**:
 
-`2F9F8317E1D565DC6505AA2F7D24308B7E1019E43F0EDD9F2F771CA2E973F57A`
+`6CA1F46183ED8E536A13DC59DB2A9D246E35AFEF0632E4C1B393379402BB6EDF`
 
 ## Every time you play
 
