@@ -6,7 +6,7 @@ Working now : Stricter DT/GP/Arena anti-cheat, and player POV-only lounge custom
 
 > Download the client, start the launcher, and create an account or sign in inside the game.
 
-> **Version 1.4.22:** Corrects individual GP ground-ring selection, restores native skill rendering, preserves Driver's License Player/Team/Star filters, rejects ghost friends, and fixes the in-game Re-login button.
+> **Version 1.4.23:** Fixes the launcher runtime-script syntax crash and makes the in-game Re-login button open the native account login screen reliably.
 
 <table>
   <tr>
@@ -39,11 +39,11 @@ Run **superstar-racing-launcher.exe**. Do not start `Superstar Racing.exe` direc
 Select **Play Now**. Use the native game screen to create an account or sign in
 with your username/email and password.
 
-### Verify the v1.4.18 download
+### Verify the v1.4.23 download
 
 SHA-256 for **Superstar-Racing-Player.zip**:
 
-`C3CC12526735F077C3D4C8D4D530627E21C73F234881E7C360BE7FD9EE76B893`
+`ECCAE62084359EB4BA5B82F7ADFF777EA0D148368800BB042C8AE274855AD132`
 
 ## Every time you play
 
