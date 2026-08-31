@@ -6,7 +6,7 @@ Working now : Stricter DT/GP/Arena anti-cheat, and player POV-only lounge custom
 
 > Download the client, start the launcher, and create an account or sign in inside the game.
 
-> **Version 1.4.23:** Fixes the launcher runtime-script syntax crash and makes the in-game Re-login button open the native account login screen reliably.
+> **Version 1.4.24:** Restores the original working in-game Re-Login flow, bundles the launcher Tk runtime, applies skill-tier colors to the status bar and nametag, and displays the MooN team name in light green.
 
 <table>
   <tr>
@@ -39,11 +39,11 @@ Run **superstar-racing-launcher.exe**. Do not start `Superstar Racing.exe` direc
 Select **Play Now**. Use the native game screen to create an account or sign in
 with your username/email and password.
 
-### Verify the v1.4.23 download
+### Verify the v1.4.24 download
 
 SHA-256 for **Superstar-Racing-Player.zip**:
 
-`ECCAE62084359EB4BA5B82F7ADFF777EA0D148368800BB042C8AE274855AD132`
+`4C57B276F1CD7407E8453C653B2C3A1A9C950CE2AAF21FA3394559ACE54B7021`
 
 ## Every time you play
 
