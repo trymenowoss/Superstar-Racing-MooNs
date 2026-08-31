@@ -2,7 +2,7 @@
 
 Community multiplayer racing for Superstar Racing, hosted continuously on AWS.
 
-Working now : Covering Guest removal, Skills/Relogin work, stricter DT/GP/Arena anti-cheat, and player POV-only lounge customization with limits and finally DT/GP/Arena with cheats with dedicated leaderboards.
+Working now : Stricter DT/GP/Arena anti-cheat, and player POV-only lounge customization with limits and finally DT/GP/Arena with cheats with dedicated leaderboards.
 
 > Download the client, start the launcher, and create an account or sign in inside the game.
 
