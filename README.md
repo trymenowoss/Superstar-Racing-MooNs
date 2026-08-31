@@ -6,7 +6,7 @@ Working now : Stricter DT/GP/Arena anti-cheat, and player POV-only lounge custom
 
 > Download the client, start the launcher, and create an account or sign in inside the game.
 
-> **Version 1.4.19:** Fixes GP medal filter separation, prevents team awards from appearing as individual bottom rings, and prevents nonexistent players from being added as ghost friends. The original skill color formatter is preserved.
+> **Version 1.4.22:** Corrects individual GP ground-ring selection, restores native skill rendering, preserves Driver's License Player/Team/Star filters, rejects ghost friends, and fixes the in-game Re-login button.
 
 <table>
   <tr>
