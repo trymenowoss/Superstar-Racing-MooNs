@@ -6,7 +6,7 @@ Working now : Stricter DT/GP/Arena anti-cheat, and player POV-only lounge custom
 
 > Download the client, start the launcher, and create an account or sign in inside the game.
 
-> **Version 1.4.18:** Fixes the original GP team-winner presentation: every player on the winning team receives the native gold laurel above their avatar, the correct track name, and the separate overhead medal row. It also fixes GP team-board tie ordering so the displayed winner and awarded winner always agree.
+> **Version 1.4.19:** Fixes GP medal filter separation, prevents team awards from appearing as individual bottom rings, and prevents nonexistent players from being added as ghost friends. The original skill color formatter is preserved.
 
 <table>
   <tr>
