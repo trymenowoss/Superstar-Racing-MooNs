@@ -6,7 +6,7 @@ Working now : Stricter DT/GP/Arena anti-cheat, and player POV-only lounge custom
 
 > Download the client, start the launcher, and create an account or sign in inside the game.
 
-> **Version 1.4.31:** Fixes multiplayer identity and flow synchronization. Each remote player now shows their own tournament ring, team-winner laurel, outfit, face, and team; the tournament screens use the previous completed calendar track; Daily Tournament sessions restore their running timer; race invitations wait for acceptance and quit returns to the paddock; repeat login and game shutdown use the original reliable flow. All-time team points now use the authoritative 64-bit team total, and Spain winners receive the correct GP 2026 Spain Winner torso.
+> **Version 1.4.35:** Adds the standalone installer/updater, restores the hosted-server endpoint, and registers Mini GP 2026 S2 jacket textures through the native avatar model registry so purchased and awarded jackets render when equipped. Spain remains the separate GP 2026 winner torso.
 
 <table>
   <tr>
@@ -23,27 +23,24 @@ Working now : Stricter DT/GP/Arena anti-cheat, and player POV-only lounge custom
 
 ## Quick start
 
-### 1. Download and extract the game
+### 1. Download the installer
 
 1. Open this repository's [Releases](../../releases/latest) page.
-2. Download **Superstar-Racing-Player.zip** from the latest release.
-3. Right-click the ZIP and select **Extract All**.
-4. Open the extracted **Superstar Racing MooNs** folder.
-
-Do not run the launcher from inside the ZIP.
+2. Download **Superstar.Racing.MooNs.Launcher.exe** from the latest release.
+3. Run it and select **Install Game**. The launcher downloads, verifies, and installs the current game automatically.
 
 ### 2. Start the player launcher
 
-Run **superstar-racing-launcher.exe**. Do not start `Superstar Racing.exe` directly.
+Run the installed **Superstar Racing MooNs** launcher. Do not start `Superstar Racing.exe` directly.
 
 Select **Play Now**. Use the native game screen to create an account or sign in
 with your username/email and password.
 
-### Verify the v1.4.31 download
+### Verify the v1.4.35 full package
 
 SHA-256 for **Superstar-Racing-Player.zip**:
 
-`3AB8342B6193926A10CB0DEDF7FABC3A5ACE10C14144AF934022BD5649CB8DFD`
+`C48700E14A2590B209F059316478015C6B20FE4586ADBE1314FE5C84ECC375CC`
 
 ## Every time you play
 
