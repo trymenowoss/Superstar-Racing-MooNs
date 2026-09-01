@@ -6,7 +6,7 @@ Working now : Stricter DT/GP/Arena anti-cheat, and player POV-only lounge custom
 
 > Download the client, start the launcher, and create an account or sign in inside the game.
 
-> **Version 1.4.36:** Adds the standalone installer/updater, restores the hosted-server endpoint, and registers Mini GP 2026 S2 jacket textures through the native avatar model registry so purchased and awarded jackets render when equipped. Spain remains the separate GP 2026 winner torso.
+> **Version 1.4.37:** Gives every Mini GP 2026 S2 jacket an explicit native racing-model/texture binding. Hosted race invitations now load both accepted clients into the selected race, retain separate accepted/started/finished states, and reject results submitted before a real race has run. Spain remains the separate GP 2026 winner torso.
 
 <table>
   <tr>
@@ -36,11 +36,11 @@ Run the installed **Superstar Racing MooNs** launcher. Do not start `Superstar R
 Select **Play Now**. Use the native game screen to create an account or sign in
 with your username/email and password.
 
-### Verify the v1.4.36 full package
+### Verify the v1.4.37 full package
 
 SHA-256 for **Superstar-Racing-Player.zip**:
 
-`1714D23B5948A1C6B0F83E7C6AB904060C02FD66CEFA8C73B6983EEF0B91AE72`
+`0E4AFC6E3A9FC1E8A863BAB776CA5AB9CBD591ADDE12FD725A01A87F29FF552E`
 
 ## Every time you play
 
