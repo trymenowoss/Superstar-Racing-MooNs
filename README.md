@@ -1,12 +1,29 @@
 # Superstar Racing MooNs
 
-Community multiplayer racing for Superstar Racing, hosted continuously on AWS.
+Rediscover the paddock. Build your racing identity. Chase your next podium.
 
-Working now : Stricter DT/GP/Arena anti-cheat, and player POV-only lounge customization with limits and finally DT/GP/Arena with cheats with dedicated leaderboards.
+**Superstar Racing MooNs** is a free-to-play community racing project with a hosted server, social 3D lounges, circuit racing, character customization, and tournament progression.
 
 > Download the client, start the launcher, and create an account or sign in inside the game.
 
-> **Version 1.4.38:** Registers every Mini GP 2026 S2 torso—including its separate Spain identity—in the original client's numeric avatar slot table. Selected jackets now render, persist, and replicate to other players instead of decoding as the default gray jacket. Hosted race-invite lifecycle fixes from v1.4.37 remain included.
+**[Download the latest release](https://github.com/trymenowoss/Superstar-Racing-MooNs/releases/latest)** · **[Release notes](https://github.com/trymenowoss/Superstar-Racing-MooNs/releases)**
+
+## Your next race starts here
+
+- **Meet in the paddock:** explore the 3D lounges, chat, and connect with friends and teammates.
+- **Make it yours:** customize your driver with racing gear, hairstyles, and available event jackets; tune and personalize your car.
+- **Race and progress:** drive circuits, record lap times, and build your profile through race results and leaderboards.
+- **Enter tournaments:** Daily Tournaments, Mini GP, Race Arena, and Star Tournament systems are available as the community rebuild continues.
+- **Keep your progress:** accounts, inventory, results, and awarded prizes are stored on the server.
+- **One launcher:** launch the game, check for updates, and see multiplayer connection status in the same window. Keep it open while playing.
+
+## Version 1.4.48
+
+This update includes fixes for Star Tournament track entry and prize matching, a shared pre-race waiting phase, and podium-ring selection based on earned individual GP results rather than country jackets. It also removes the first-launch marker dependency and separate default-settings file from new packages, and includes a shop confirmation-button compatibility patch.
+
+Race Arena now has hour-scoped results and 50/30/25 CR$ top-three payouts. This version also adds a daily winners-board reset, profile-based winner flags, and first-device approval after authentication. Additional devices require administrator approval; multiple approved devices are supported.
+
+**Active development:** this is a community compatibility rebuild, not a promise of flawless retail behavior. First-launch/relogin connectivity, guest signup presentation, remote movement, two-player race synchronization, the shop patch, and visible arena rollover still need wider live testing. Please report reproducible issues with your version and screenshots.
 
 <table>
   <tr>
@@ -36,11 +53,9 @@ Run the installed **Superstar Racing MooNs** launcher. Do not start `Superstar R
 Select **Play Now**. Use the native game screen to create an account or sign in
 with your username/email and password.
 
-### Verify the v1.4.38 full package
+### Verify your download
 
-SHA-256 for **Superstar-Racing-Player.zip**:
-
-`292AD7B6E36BF7579458F9A2791B6184E2E9E5A2F4018E737CCD26C041F9DA7D`
+Use the SHA-256 checksum published with the matching release. Extract the full package before starting the launcher; do not mix files from different versions.
 
 ## Every time you play
 
@@ -84,7 +99,7 @@ Close the message and start `superstar-racing-launcher.exe` from the extracted g
 
 ### Windows SmartScreen appears
 
-The community launcher is not code-signed and performs runtime compatibility patching, so some antivirus products may show a heuristic false positive. Release ZIPs are checked locally with Microsoft Defender before publication; the result can still vary with future security-intelligence updates.
+The community launcher is not code-signed and performs runtime compatibility patching, which can trigger security warnings. A warning should be investigated rather than assumed harmless. Check the release notes for any scan results provided for that particular build.
 
 No developer can guarantee identical results from every antivirus engine or future signature update. Do not disable antivirus protection. Verify the SHA-256 checksum shown on the GitHub release, download only from this repository, and contact the owner if security software blocks the client.
 
