@@ -17,13 +17,7 @@ Rediscover the paddock. Build your racing identity. Chase your next podium.
 - **Keep your progress:** accounts, inventory, results, and awarded prizes are stored on the server.
 - **One launcher:** launch the game, check for updates, and see multiplayer connection status in the same window. Keep it open while playing.
 
-## Version 1.4.48
-
-This update includes fixes for Star Tournament track entry and prize matching, a shared pre-race waiting phase, and podium-ring selection based on earned individual GP results rather than country jackets. It also removes the first-launch marker dependency and separate default-settings file from new packages, and includes a shop confirmation-button compatibility patch.
-
-Race Arena now has hour-scoped results and 50/30/25 CR$ top-three payouts. This version also adds a daily winners-board reset, profile-based winner flags, and first-device approval after authentication. Additional devices require administrator approval; multiple approved devices are supported.
-
-**Active development:** this is a community compatibility rebuild, not a promise of flawless retail behavior. First-launch/relogin connectivity, guest signup presentation, remote movement, two-player race synchronization, the shop patch, and visible arena rollover still need wider live testing. Please report reproducible issues with your version and screenshots.
+## Version 1.4.49
 
 <table>
   <tr>
