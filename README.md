@@ -114,13 +114,6 @@ No developer can guarantee identical results from every antivirus engine or futu
 
 ## Security and privacy
 
-- The published player package contains no database credentials, admin interface, or server source code.
-- Public access is limited to the game, account, and read-only player-state services. The admin interface and database are not exposed publicly.
-- Native game passwords remain private and are not included in the downloadable package.
-- Hardware enforcement uses a one-way pseudonymous device digest; raw Windows machine identifiers are not transmitted or stored.
-- Race rewards, progression, purchases, voucher claims, and leaderboard submissions are validated server-side.
-- Tournament boost use is checked against the server-issued boost allowance. Client integrity signals are supporting evidence and are retained for administrator review.
-
 Please report security concerns privately as described in [SECURITY.md](SECURITY.md).
 
 ## License and game content
