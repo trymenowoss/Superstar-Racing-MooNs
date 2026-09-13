@@ -11,13 +11,23 @@ Rediscover the paddock. Build your racing identity. Chase your next podium.
 ## Your next race starts here
 
 - **Meet in the paddock:** explore the 3D lounges, chat, and connect with friends and teammates.
-- **Make it yours:** customize your driver with racing gear, hairstyles, and available event jackets; tune and personalize your car.
+- **Make it yours:** customize your driver with racing gear, hairstyles, event jackets, flags, car bodies, and car parts from the expanded shop catalog.
 - **Race and progress:** drive circuits, record lap times, and build your profile through race results and leaderboards.
-- **Enter tournaments:** Daily Tournaments, Mini GP, Race Arena, and Star Tournament systems are available as the community rebuild continues.
+- **Enter tournaments:** compete in Daily Tournaments, Mini GP, Race Arena, Star Tournament, and Time Challenge events.
 - **Keep your progress:** accounts, inventory, results, and awarded prizes are stored on the server.
 - **One launcher:** launch the game, check for updates, and see multiplayer connection status in the same window. Keep it open while playing.
 
-## Version 1.4.49
+## Version 1.4.70
+
+Version 1.4.70 includes the expanded game-asset catalog, server-authoritative
+shop prices, car bodies and car parts sold for Team Funds, voucher redemption,
+improved saved-outfit restoration, Time Challenge loading, tournament winner
+screens, multiplayer presence, and server-side boost validation.
+
+Current catalog targets are **40,500,000 Credits** for active Credit items and
+**22,500,000 Team Funds** for active car bodies and car parts. Shop prices come
+from the server, so future price and availability updates appear in the client
+without replacing game assets.
 
 <table>
   <tr>
@@ -34,11 +44,11 @@ Rediscover the paddock. Build your racing identity. Chase your next podium.
 
 ## Quick start
 
-### 1. Download the installer
+### 1. Download the current client
 
 1. Open this repository's [Releases](../../releases/latest) page.
-2. Download **Superstar.Racing.MooNs.Launcher.exe** from the latest release.
-3. Run it and select **Install Game**. The launcher downloads, verifies, and installs the current game automatically.
+2. Download **Superstar-Racing-Player-1.4.70.zip** from the latest release.
+3. Verify the published SHA-256 digest and extract the complete ZIP into a new folder.
 
 ### 2. Start the player launcher
 
@@ -49,7 +59,10 @@ with your username/email and password.
 
 ### Verify your download
 
-Use the SHA-256 checksum published with the matching release. Extract the full package before starting the launcher; do not mix files from different versions.
+For version 1.4.70, the ZIP SHA-256 is
+`b68338f2f3d51789e70ecdbb639168377a7a36c6cc9f5bf5ed61256ee3b50716`.
+Extract the full package before starting the launcher; do not mix files from
+different versions.
 
 ## Every time you play
 
@@ -62,6 +75,8 @@ Use the SHA-256 checksum published with the matching release. Extract the full p
 The launcher checks this repository for new releases. When an update is available,
 select **Update** in `superstar-racing-launcher.exe`; it verifies the published
 SHA-256 digest, installs the package, preserves local settings, and restarts itself.
+Voucher codes can be redeemed from **Main Menu → Claim Voucher** when issued by
+the game administrators.
 
 Every updated client version, compatibility improvement, and new gameplay patch
 will also be published in this repository's [Releases](../../releases/latest)
@@ -103,7 +118,8 @@ No developer can guarantee identical results from every antivirus engine or futu
 - Public access is limited to the game, account, and read-only player-state services. The admin interface and database are not exposed publicly.
 - Native game passwords remain private and are not included in the downloadable package.
 - Hardware enforcement uses a one-way pseudonymous device digest; raw Windows machine identifiers are not transmitted or stored.
-- Race rewards, progression, and leaderboard submissions are validated server-side. Client integrity signals are supporting evidence and are retained for administrator review.
+- Race rewards, progression, purchases, voucher claims, and leaderboard submissions are validated server-side.
+- Tournament boost use is checked against the server-issued boost allowance. Client integrity signals are supporting evidence and are retained for administrator review.
 
 Please report security concerns privately as described in [SECURITY.md](SECURITY.md).
 
