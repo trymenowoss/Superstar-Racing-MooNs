@@ -17,12 +17,18 @@ Rediscover the paddock. Build your racing identity. Chase your next podium.
 - **Keep your progress:** accounts, inventory, results, and awarded prizes are stored on the server.
 - **One launcher:** launch the game, check for updates, and see multiplayer connection status in the same window. Keep it open while playing.
 
-## Version 1.4.70
+## Version 1.4.71
 
-Version 1.4.70 includes the expanded game-asset catalog, server-authoritative
-shop prices, car bodies and car parts sold for Team Funds, voucher redemption,
-improved saved-outfit restoration, Time Challenge loading, tournament winner
-screens, multiplayer presence, and server-side boost validation.
+Version 1.4.71 makes the native **Main Menu → My Account** controls functional.
+Players can change their login email and password with current-password
+verification, save their email preference, and receive the original-style
+success or error popup. VIP access is shown as included for registered MooNs
+accounts. Account-operation payloads are redacted from server diagnostics.
+
+This release also retains the expanded game-asset catalog, server-authoritative
+shop prices, voucher redemption, saved-outfit restoration, Time Challenge,
+tournament winner screens, multiplayer presence, and server-side boost validation
+from version 1.4.70.
 
 Current catalog targets are **40,500,000 Credits** for active Credit items and
 **22,500,000 Team Funds** for active car bodies and car parts. Shop prices come
@@ -47,7 +53,7 @@ without replacing game assets.
 ### 1. Download the current client
 
 1. Open this repository's [Releases](../../releases/latest) page.
-2. Download **Superstar-Racing-Player-1.4.70.zip** from the latest release.
+2. Download **Superstar-Racing-Player-1.4.71.zip** from the latest release.
 3. Verify the published SHA-256 digest and extract the complete ZIP into a new folder.
 
 ### 2. Start the player launcher
@@ -59,8 +65,8 @@ with your username/email and password.
 
 ### Verify your download
 
-For version 1.4.70, the ZIP SHA-256 is
-`b68338f2f3d51789e70ecdbb639168377a7a36c6cc9f5bf5ed61256ee3b50716`.
+For version 1.4.71, the ZIP SHA-256 is
+`12d3fd83f3eb855ebe294f671bc060fa90176e27a2fd041728d3ad15c7d24a86`.
 Extract the full package before starting the launcher; do not mix files from
 different versions.
 
